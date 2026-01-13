@@ -1,1 +1,103 @@
+<!doctype html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Data sovereignty & user-aligned AI — extended context for OpenAI Grove application (Scott J Barnett)." />
+  <title>Data Sovereignty & User-Aligned AI — Scott J Barnett</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --fg:#000000;
+      --muted:#222222;
+      --rule:#000000;
+      --max: 820px;
+    }
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--fg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      line-height:1.55;
+      text-rendering:optimizeLegibility;
+    }
+    header, main, footer{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 18px;
+    }
+    header{padding-top:36px;padding-bottom:10px}
+    h1{font-size:1.6rem;margin:0 0 6px 0;letter-spacing:-0.01em}
+    .sub{margin:0;color:var(--muted);font-size:0.98rem}
+    hr{border:0;border-top:1px solid var(--rule);margin:18px 0 0 0}
+    h2{font-size:1.05rem;margin:26px 0 10px 0}
+    p{margin:0 0 12px 0}
+    ul{margin:0 0 12px 18px;padding:0}
+    li{margin:6px 0}
+    details{border-top:1px solid var(--rule);padding-top:12px;margin-top:18px}
+    details summary{cursor:pointer;list-style:none;font-weight:600;margin-bottom:10px}
+    details summary::-webkit-details-marker{display:none}
+    details summary:before{content:"+ ";font-weight:700}
+    details[open] summary:before{content:"− "}
+    a{color:inherit;text-decoration:underline}
+    .meta{margin-top:18px;border-top:1px solid var(--rule);padding-top:14px;font-size:0.95rem}
+    footer{padding-top:8px;padding-bottom:36px;color:var(--muted);font-size:0.92rem}
+    .small{font-size:0.92rem;color:var(--muted)}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Data Sovereignty &amp; User-Aligned AI</h1>
+    <p class="sub">Extended context for OpenAI Grove application — <strong>Scott J Barnett</strong> (New Zealand)</p>
+    <hr />
+  </header>
+
+  <main>
+    <h2>Opening</h2>
+    <p><strong>Data sovereignty for the age of persistent personal data clouds.</strong></p>
+    <p>
+      Humans are becoming the first species to carry a continuous external data self. Every interaction—educational,
+      medical, civic, economic—adds to a personal data cloud that increasingly mediates access to opportunity, rights,
+      and resources. I’m exploring how individuals can regain agency over that data, using AI as a loyal translator
+      rather than an authority, so understanding and value flow back to people and their communities.
+    </p>
+
+    <h2>Core Thesis</h2>
+    <p>
+      Personal data is already treated as an economic asset, but ownership, control, and benefit remain diffuse and opaque.
+      As AI systems begin to mediate health, education, finance, and civic life, this lack of individual data sovereignty
+      becomes a structural risk rather than a philosophical concern.
+    </p>
+    <p>
+      The individual should be the root node of permission. Personal data should be carried, shared, and revoked on a
+      time-bound basis, with clear purpose and accountability. AI systems should translate complexity, not decide outcomes.
+    </p>
+
+    <h2>What This Is Not</h2>
+    <ul>
+      <li>Not a national platform proposal (yet)</li>
+      <li>Not surveillance capitalism with better branding</li>
+      <li>Not a social credit system</li>
+      <li>Not replacing teachers, clinicians, the judiciary, or public servants</li>
+      <li>Not assuming AI should decide outcomes</li>
+    </ul>
+
+    <div class="meta">
+      <p><strong>Contact</strong></p>
+      <p>Scott J Barnett — New Zealand</p>
+      <p>Email: <a href="mailto:scottjbarnett@gmail.com">scottjbarnett@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="y"></span> Scott J Barnett</p>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
